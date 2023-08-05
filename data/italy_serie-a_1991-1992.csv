@@ -1,0 +1,307 @@
+,Wk,Day,Date,Home,Away,Referee,h_ftgoals,a_ftgoals
+0,1,Sun,1991-09-01,Napoli,Atalanta,Piero Ceccarini,1.0,0.0
+1,1,Sun,1991-09-01,Juventus,Fiorentina,Angelo Amendolia,1.0,0.0
+2,1,Sun,1991-09-01,Lazio,Parma,Carlo Sguizzato,1.0,1.0
+3,1,Sun,1991-09-01,Cagliari,Sampdoria,Gianni Beschin,3.0,2.0
+4,1,Sun,1991-09-01,Bari,Torino,Loris Stafoggia,1.0,1.0
+5,1,Sun,1991-09-01,Genoa,Cremonese,Maurizio Mughetti,2.0,0.0
+6,1,Sun,1991-09-01,Hellas Verona,Roma,Pietro D'Elia,0.0,1.0
+7,1,Sun,1991-09-01,Ascoli,Milan,Luciano Luci,0.0,1.0
+8,1,Sun,1991-09-01,Internazionale,Foggia,Walter Cinciripini,1.0,1.0
+9,2,Sun,1991-09-08,Cremonese,Napoli,Graziano Cesari,0.0,0.0
+10,2,Sun,1991-09-08,Sampdoria,Hellas Verona,Alfredo Trentalange,2.0,0.0
+11,2,Sun,1991-09-08,Parma,Bari,Marcello Nicchi,1.0,0.0
+12,2,Sun,1991-09-08,Milan,Cagliari,Werter Cornieti,1.0,0.0
+13,2,Sun,1991-09-08,Torino,Lazio,Fabio Baldas,0.0,1.0
+14,2,Sun,1991-09-08,Atalanta,Ascoli,Mauro Felicani,1.0,1.0
+15,2,Sun,1991-09-08,Foggia,Juventus,Tullio Lanese,0.0,1.0
+16,2,Sun,1991-09-08,Fiorentina,Genoa,Paolo Fabricatore,3.0,1.0
+17,2,Sun,1991-09-08,Roma,Internazionale,Pierluigi Pairetto,0.0,1.0
+18,3,Sun,1991-09-15,Lazio,Atalanta,Maurizio Mughetti,1.0,1.0
+19,3,Sun,1991-09-15,Fiorentina,Foggia,Gianni Beschin,1.0,2.0
+20,3,Sun,1991-09-15,Juventus,Milan,Pietro D'Elia,1.0,1.0
+21,3,Sun,1991-09-15,Genoa,Ascoli,Livio Bazzoli,1.0,0.0
+22,3,Sun,1991-09-15,Bari,Sampdoria,Carlo Sguizzato,1.0,1.0
+23,3,Sun,1991-09-15,Cremonese,Torino,Piero Ceccarini,0.0,2.0
+24,3,Sun,1991-09-15,Internazionale,Hellas Verona,Arcangelo Pezzella,2.0,0.0
+25,3,Sun,1991-09-15,Cagliari,Roma,Luciano Luci,0.0,1.0
+26,3,Sun,1991-09-15,Napoli,Parma,Walter Cinciripini,2.0,2.0
+27,4,Sun,1991-09-22,Torino,Napoli,Rosario Lo Bello,0.0,0.0
+28,4,Sun,1991-09-22,Ascoli,Lazio,Marcello Nicchi,1.0,4.0
+29,4,Sun,1991-09-22,Roma,Genoa,Werter Cornieti,0.0,0.0
+30,4,Sun,1991-09-22,Parma,Cremonese,Fabio Baldas,1.0,1.0
+31,4,Sun,1991-09-22,Hellas Verona,Bari,Piero Ceccarini,2.0,1.0
+32,4,Sun,1991-09-22,Milan,Fiorentina,Pierluigi Pairetto,1.0,1.0
+33,4,Sun,1991-09-22,Sampdoria,Internazionale,Angelo Amendolia,4.0,0.0
+34,4,Sun,1991-09-22,Atalanta,Juventus,Graziano Cesari,0.0,0.0
+35,4,Sun,1991-09-22,Foggia,Cagliari,Paolo Fabricatore,3.0,1.0
+36,5,Sun,1991-09-29,Juventus,Bari,Maurizio Mughetti,2.0,0.0
+37,5,Sun,1991-09-29,Foggia,Parma,Pietro D'Elia,1.0,1.0
+38,5,Sun,1991-09-29,Lazio,Internazionale,Tullio Lanese,0.0,1.0
+39,5,Sun,1991-09-29,Cagliari,Torino,Mauro Felicani,0.0,1.0
+40,5,Sun,1991-09-29,Cremonese,Atalanta,Loris Stafoggia,1.0,2.0
+41,5,Sun,1991-09-29,Sampdoria,Ascoli,Robert Boggi,4.0,0.0
+42,5,Sun,1991-09-29,Napoli,Hellas Verona,Werter Cornieti,3.0,1.0
+43,5,Sun,1991-09-29,Fiorentina,Roma,Fabio Baldas,0.0,1.0
+44,6,Sun,1991-10-06,Hellas Verona,Cagliari,Rosario Lo Bello,2.0,0.0
+45,6,Sun,1991-10-06,Genoa,Juventus,Carlo Sguizzato,2.0,1.0
+46,6,Sun,1991-10-06,Bari,Cremonese,Virginio Quartuccio,0.0,0.0
+47,6,Sun,1991-10-06,Ascoli,Napoli,Alfredo Trentalange,1.0,4.0
+48,6,Sun,1991-10-06,Torino,Foggia,Luciano Luci,3.0,1.0
+49,6,Sun,1991-10-06,Atalanta,Milan,Marcello Nicchi,0.0,2.0
+50,6,Sun,1991-10-06,Parma,Sampdoria,Tullio Lanese,2.0,1.0
+51,6,Sun,1991-10-06,Roma,Lazio,Gianni Beschin,1.0,1.0
+52,6,Sun,1991-10-06,Internazionale,Fiorentina,Graziano Cesari,1.0,1.0
+53,7,Sun,1991-10-20,Torino,Roma,Arcangelo Pezzella,1.0,1.0
+54,7,Sun,1991-10-20,Cremonese,Hellas Verona,Livio Bazzoli,3.0,0.0
+55,7,Sun,1991-10-20,Cagliari,Internazionale,Robert Boggi,1.0,1.0
+56,7,Sun,1991-10-20,Lazio,Genoa,Pierluigi Pairetto,1.0,1.0
+57,7,Sun,1991-10-20,Foggia,Ascoli,Roberto Bettin,1.0,0.0
+58,7,Sun,1991-10-20,Sampdoria,Atalanta,Vincenzo Fucci,0.0,2.0
+59,7,Sun,1991-10-20,Milan,Parma,Loris Stafoggia,2.0,0.0
+60,7,Sun,1991-10-20,Fiorentina,Bari,Rosario Lo Bello,2.0,0.0
+61,7,Sun,1991-10-20,Napoli,Juventus,Angelo Amendolia,0.0,1.0
+62,8,Sun,1991-10-27,Genoa,Sampdoria,Pietro D'Elia,0.0,0.0
+63,8,Sun,1991-10-27,Ascoli,Fiorentina,Paolo Fabricatore,0.0,0.0
+64,8,Sun,1991-10-27,Parma,Torino,Livio Bazzoli,0.0,0.0
+65,8,Sun,1991-10-27,Juventus,Cremonese,Giovanni Merlino,2.0,0.0
+66,8,Sun,1991-10-27,Bari,Milan,Fabio Baldas,0.0,1.0
+67,8,Sun,1991-10-27,Hellas Verona,Lazio,Walter Cinciripini,0.0,2.0
+68,8,Sun,1991-10-27,Atalanta,Cagliari,Alfredo Trentalange,0.0,1.0
+69,8,Sun,1991-10-27,Roma,Foggia,Mauro Felicani,1.0,1.0
+70,8,Sun,1991-10-27,Internazionale,Napoli,Piero Ceccarini,0.0,0.0
+71,9,Sun,1991-11-03,Torino,Internazionale,Gianni Beschin,0.0,0.0
+72,9,Sun,1991-11-03,Genoa,Atalanta,Mauro Felicani,0.0,2.0
+73,9,Sun,1991-11-03,Fiorentina,Cagliari,Dario Boemo,1.0,0.0
+74,9,Sun,1991-11-03,Milan,Roma,Graziano Cesari,4.0,1.0
+75,9,Sun,1991-11-03,Foggia,Bari,Alfredo Trentalange,4.0,1.0
+76,9,Sun,1991-11-03,Ascoli,Cremonese,Carlo Sguizzato,1.0,0.0
+77,9,Sun,1991-11-03,Napoli,Sampdoria,Luciano Luci,2.0,1.0
+78,9,Sun,1991-11-03,Lazio,Juventus,Arcangelo Pezzella,1.0,1.0
+79,9,Sun,1991-11-03,Parma,Hellas Verona,Pierluigi Pairetto,1.0,1.0
+80,10,Sun,1991-11-17,Cremonese,Foggia,Marcello Nicchi,0.0,2.0
+81,10,Sun,1991-11-17,Juventus,Torino,Piero Ceccarini,1.0,0.0
+82,10,Sun,1991-11-17,Cagliari,Parma,Massimo Chiesa,0.0,0.0
+83,10,Sun,1991-11-17,Bari,Lazio,Pietro D'Elia,1.0,2.0
+84,10,Sun,1991-11-17,Atalanta,Fiorentina,Werter Cornieti,1.0,0.0
+85,10,Sun,1991-11-17,Sampdoria,Milan,Tullio Lanese,0.0,2.0
+86,10,Sun,1991-11-17,Hellas Verona,Genoa,Fabio Baldas,2.0,1.0
+87,10,Sun,1991-11-17,Internazionale,Ascoli,Virginio Quartuccio,2.0,1.0
+88,10,Sun,1991-11-17,Roma,Napoli,Loris Stafoggia,1.0,1.0
+89,5,Wed,1991-11-20,Milan,Genoa,Luciano Luci,1.0,1.0
+90,11,Sun,1991-11-24,Genoa,Cagliari,Marcello Cardona,2.0,2.0
+91,11,Sun,1991-11-24,Ascoli,Juventus,Rosario Lo Bello,0.0,2.0
+92,11,Sun,1991-11-24,Parma,Internazionale,Alfredo Trentalange,1.0,1.0
+93,11,Sun,1991-11-24,Roma,Sampdoria,Arcangelo Pezzella,2.0,0.0
+94,11,Sun,1991-11-24,Fiorentina,Lazio,Carlo Sguizzato,1.0,1.0
+95,11,Sun,1991-11-24,Torino,Hellas Verona,Graziano Cesari,0.0,0.0
+96,11,Sun,1991-11-24,Foggia,Atalanta,Giovanni Merlino,2.0,3.0
+97,11,Sun,1991-11-24,Milan,Cremonese,Robert Boggi,3.0,1.0
+98,11,Sun,1991-11-24,Napoli,Bari,Mauro Felicani,1.0,0.0
+99,12,Sun,1991-12-01,Juventus,Roma,Marcello Nicchi,2.0,1.0
+100,12,Sun,1991-12-01,Cagliari,Ascoli,Gianni Beschin,2.0,0.0
+101,12,Sun,1991-12-01,Sampdoria,Torino,Paolo Fabricatore,0.0,0.0
+102,12,Sun,1991-12-01,Hellas Verona,Foggia,Loris Stafoggia,1.0,0.0
+103,12,Sun,1991-12-01,Atalanta,Parma,Giuseppe Rosica,0.0,1.0
+104,12,Sun,1991-12-01,Lazio,Napoli,Werter Cornieti,3.0,3.0
+105,12,Sun,1991-12-01,Bari,Genoa,Angelo Amendolia,1.0,2.0
+106,12,Sun,1991-12-01,Internazionale,Milan,Pierluigi Pairetto,1.0,1.0
+107,12,Sun,1991-12-01,Cremonese,Fiorentina,Maurizio Mughetti,1.0,3.0
+108,13,Sun,1991-12-08,Foggia,Sampdoria,Walter Cinciripini,0.0,0.0
+109,13,Sun,1991-12-08,Fiorentina,Hellas Verona,Vincenzo Fucci,4.0,1.0
+110,13,Sun,1991-12-08,Juventus,Internazionale,Fabio Baldas,2.0,1.0
+111,13,Sun,1991-12-08,Cremonese,Lazio,Tullio Lanese,2.0,0.0
+112,13,Sun,1991-12-08,Napoli,Cagliari,Livio Bazzoli,4.0,0.0
+113,13,Sun,1991-12-08,Ascoli,Bari,Arcangelo Pezzella,2.0,2.0
+114,13,Sun,1991-12-08,Milan,Torino,Pietro D'Elia,2.0,0.0
+115,13,Sun,1991-12-08,Roma,Atalanta,Robert Boggi,1.0,1.0
+116,13,Sun,1991-12-08,Genoa,Parma,Virginio Quartuccio,2.0,0.0
+117,14,Sun,1991-12-15,Lazio,Milan,Piero Ceccarini,1.0,1.0
+118,14,Sun,1991-12-15,Bari,Atalanta,Roberto Bettin,0.0,0.0
+119,14,Sun,1991-12-15,Parma,Roma,Gianni Beschin,3.0,1.0
+120,14,Sun,1991-12-15,Torino,Fiorentina,Rosario Lo Bello,2.0,0.0
+121,14,Sun,1991-12-15,Hellas Verona,Ascoli,Pierluigi Collina,1.0,0.0
+122,14,Sun,1991-12-15,Sampdoria,Juventus,Loris Stafoggia,1.0,0.0
+123,14,Sun,1991-12-15,Napoli,Foggia,Alfredo Trentalange,3.0,3.0
+124,14,Sun,1991-12-15,Cagliari,Cremonese,Pierluigi Pairetto,0.0,0.0
+125,14,Sun,1991-12-15,Internazionale,Genoa,Marcello Nicchi,2.0,2.0
+126,15,Sun,1992-01-05,Ascoli,Roma,Robert Boggi,1.0,1.0
+127,15,Sun,1992-01-05,Juventus,Parma,Luciano Luci,1.0,0.0
+128,15,Sun,1992-01-05,Milan,Napoli,Carlo Sguizzato,5.0,0.0
+129,15,Sun,1992-01-05,Bari,Cagliari,Tullio Lanese,1.0,0.0
+130,15,Sun,1992-01-05,Atalanta,Hellas Verona,Maurizio Mughetti,0.0,0.0
+131,15,Sun,1992-01-05,Fiorentina,Sampdoria,Mauro Felicani,1.0,2.0
+132,15,Sun,1992-01-05,Genoa,Torino,Walter Cinciripini,1.0,1.0
+133,15,Sun,1992-01-05,Lazio,Foggia,Graziano Cesari,5.0,2.0
+134,16,Sun,1992-01-12,Sampdoria,Lazio,Fabio Baldas,1.0,0.0
+135,16,Sun,1992-01-12,Napoli,Fiorentina,Loris Stafoggia,1.0,0.0
+136,16,Sun,1992-01-12,Foggia,Genoa,Vincenzo Fucci,1.0,0.0
+137,16,Sun,1992-01-12,Roma,Cremonese,Giovanni Merlino,3.0,0.0
+138,16,Sun,1992-01-12,Cagliari,Juventus,Piero Ceccarini,1.0,1.0
+139,16,Sun,1992-01-12,Internazionale,Bari,Paolo Fabricatore,1.0,0.0
+140,16,Sun,1992-01-12,Torino,Atalanta,Livio Bazzoli,1.0,1.0
+141,16,Sun,1992-01-12,Hellas Verona,Milan,Alfredo Trentalange,0.0,1.0
+142,16,Sun,1992-01-12,Parma,Ascoli,Paolo De Angelis,2.0,0.0
+143,17,Sun,1992-01-19,Bari,Roma,Luciano Luci,2.0,1.0
+144,17,Sun,1992-01-19,Juventus,Hellas Verona,Mauro Felicani,2.0,0.0
+145,17,Sun,1992-01-19,Cremonese,Sampdoria,Arcangelo Pezzella,0.0,1.0
+146,17,Sun,1992-01-19,Genoa,Napoli,Pierluigi Pairetto,3.0,4.0
+147,17,Sun,1992-01-19,Atalanta,Internazionale,Carlo Sguizzato,1.0,0.0
+148,17,Sun,1992-01-19,Ascoli,Torino,Daniele Scaramuzza,0.0,4.0
+149,17,Sun,1992-01-19,Fiorentina,Parma,Tullio Lanese,1.0,1.0
+150,17,Sun,1992-01-19,Milan,Foggia,Gianni Beschin,3.0,1.0
+151,17,Sun,1992-01-19,Lazio,Cagliari,Angelo Amendolia,2.0,1.0
+152,18,Sun,1992-01-26,Cremonese,Genoa,Virginio Quartuccio,2.0,1.0
+153,18,Sun,1992-01-26,Torino,Bari,Graziano Cesari,1.0,0.0
+154,18,Sun,1992-01-26,Atalanta,Napoli,Luciano Luci,1.0,1.0
+155,18,Sun,1992-01-26,Roma,Hellas Verona,Fabio Baldas,1.0,0.0
+156,18,Sun,1992-01-26,Sampdoria,Cagliari,Marcello Nicchi,1.0,1.0
+157,18,Sun,1992-01-26,Parma,Lazio,Loris Stafoggia,1.0,0.0
+158,18,Sun,1992-01-26,Foggia,Internazionale,Piero Ceccarini,2.0,2.0
+159,18,Sun,1992-01-26,Milan,Ascoli,Roberto Bettin,4.0,1.0
+160,18,Sun,1992-01-26,Fiorentina,Juventus,Arcangelo Pezzella,2.0,0.0
+161,15,Wed,1992-01-29,Cremonese,Internazionale,Walter Cinciripini,0.0,1.0
+162,19,Sun,1992-02-02,Ascoli,Atalanta,Pasquale Rodomonti,1.0,0.0
+163,19,Sun,1992-02-02,Internazionale,Roma,Mauro Felicani,0.0,0.0
+164,19,Sun,1992-02-02,Genoa,Fiorentina,Alfredo Trentalange,3.0,2.0
+165,19,Sun,1992-02-02,Napoli,Cremonese,Paolo Fabricatore,3.0,0.0
+166,19,Sun,1992-02-02,Juventus,Foggia,Carlo Sguizzato,4.0,1.0
+167,19,Sun,1992-02-02,Hellas Verona,Sampdoria,Angelo Amendolia,0.0,0.0
+168,19,Sun,1992-02-02,Cagliari,Milan,Loris Stafoggia,1.0,4.0
+169,19,Sun,1992-02-02,Bari,Parma,Pierluigi Pairetto,1.0,1.0
+170,19,Sun,1992-02-02,Lazio,Torino,Robert Boggi,2.0,1.0
+171,20,Sun,1992-02-09,Ascoli,Genoa,Maurizio Mughetti,0.0,2.0
+172,20,Sun,1992-02-09,Parma,Napoli,Gianni Beschin,2.0,1.0
+173,20,Sun,1992-02-09,Sampdoria,Bari,Virginio Quartuccio,1.0,1.0
+174,20,Sun,1992-02-09,Atalanta,Lazio,Arcangelo Pezzella,1.0,0.0
+175,20,Sun,1992-02-09,Hellas Verona,Internazionale,Luciano Luci,1.0,0.0
+176,20,Sun,1992-02-09,Milan,Juventus,Fabio Baldas,1.0,1.0
+177,20,Sun,1992-02-09,Torino,Cremonese,Vincenzo Fucci,2.0,0.0
+178,20,Sun,1992-02-09,Foggia,Fiorentina,Livio Bazzoli,3.0,3.0
+179,20,Sun,1992-02-09,Roma,Cagliari,Walter Cinciripini,0.0,0.0
+180,21,Sun,1992-02-16,Cremonese,Parma,Piero Ceccarini,0.0,1.0
+181,21,Sun,1992-02-16,Lazio,Ascoli,Marcello Cardona,1.0,1.0
+182,21,Sun,1992-02-16,Internazionale,Sampdoria,Alfredo Trentalange,0.0,0.0
+183,21,Sun,1992-02-16,Napoli,Torino,Pierluigi Collina,0.0,1.0
+184,21,Sun,1992-02-16,Genoa,Roma,Tullio Lanese,1.0,1.0
+185,21,Sun,1992-02-16,Bari,Hellas Verona,Paolo Fabricatore,2.0,1.0
+186,21,Sun,1992-02-16,Juventus,Atalanta,Livio Bazzoli,2.0,1.0
+187,21,Sun,1992-02-16,Cagliari,Foggia,Pierluigi Pairetto,2.0,2.0
+188,21,Sun,1992-02-16,Fiorentina,Milan,Graziano Cesari,0.0,0.0
+189,22,Sun,1992-02-23,Bari,Juventus,Pietro D'Elia,0.0,0.0
+190,22,Sun,1992-02-23,Parma,Foggia,Angelo Amendolia,2.0,0.0
+191,22,Sun,1992-02-23,Hellas Verona,Napoli,Marcello Nicchi,0.0,1.0
+192,22,Sun,1992-02-23,Internazionale,Lazio,Rosario Lo Bello,1.0,0.0
+193,22,Sun,1992-02-23,Atalanta,Cremonese,Massimo Chiesa,1.0,1.0
+194,22,Sun,1992-02-23,Torino,Cagliari,Mauro Felicani,1.0,0.0
+195,22,Sun,1992-02-23,Genoa,Milan,Carlo Sguizzato,0.0,0.0
+196,22,Sun,1992-02-23,Roma,Fiorentina,Maurizio Mughetti,1.0,3.0
+197,22,Sun,1992-02-23,Ascoli,Sampdoria,Giovanni Merlino,0.0,1.0
+198,23,Sun,1992-03-01,Sampdoria,Parma,Pierluigi Collina,2.0,0.0
+199,23,Sun,1992-03-01,Cremonese,Bari,Pierluigi Pairetto,1.0,1.0
+200,23,Sun,1992-03-01,Fiorentina,Internazionale,Vincenzo Fucci,1.0,1.0
+201,23,Sun,1992-03-01,Lazio,Roma,Loris Stafoggia,1.0,1.0
+202,23,Sun,1992-03-01,Foggia,Torino,Maurizio Mughetti,1.0,1.0
+203,23,Sun,1992-03-01,Napoli,Ascoli,Giuseppe Rosica,5.0,1.0
+204,23,Sun,1992-03-01,Juventus,Genoa,Gianni Beschin,3.0,0.0
+205,23,Sun,1992-03-01,Milan,Atalanta,Piero Ceccarini,3.0,1.0
+206,23,Sun,1992-03-01,Cagliari,Hellas Verona,Rosario Lo Bello,4.0,0.0
+207,24,Sun,1992-03-08,Ascoli,Foggia,Virginio Quartuccio,2.0,1.0
+208,24,Sun,1992-03-08,Roma,Torino,Angelo Amendolia,1.0,0.0
+209,24,Sun,1992-03-08,Juventus,Napoli,Graziano Cesari,3.0,1.0
+210,24,Sun,1992-03-08,Internazionale,Cagliari,Fabio Baldas,0.0,0.0
+211,24,Sun,1992-03-08,Parma,Milan,Pietro D'Elia,1.0,3.0
+212,24,Sun,1992-03-08,Bari,Fiorentina,Arcangelo Pezzella,1.0,0.0
+213,24,Sun,1992-03-08,Hellas Verona,Cremonese,Tullio Lanese,2.0,2.0
+214,24,Sun,1992-03-08,Atalanta,Sampdoria,Paolo Fabricatore,0.0,0.0
+215,24,Sun,1992-03-08,Genoa,Lazio,Livio Bazzoli,1.0,0.0
+216,25,Sun,1992-03-15,Foggia,Roma,Rosario Lo Bello,1.0,2.0
+217,25,Sun,1992-03-15,Fiorentina,Ascoli,Robert Boggi,1.0,2.0
+218,25,Sun,1992-03-15,Milan,Bari,Walter Cinciripini,2.0,0.0
+219,25,Sun,1992-03-15,Sampdoria,Genoa,Alfredo Trentalange,2.0,2.0
+220,25,Sun,1992-03-15,Napoli,Internazionale,Pierluigi Pairetto,1.0,1.0
+221,25,Sun,1992-03-15,Lazio,Hellas Verona,Angelo Amendolia,2.0,0.0
+222,25,Sun,1992-03-15,Cagliari,Atalanta,Luciano Luci,0.0,0.0
+223,25,Sun,1992-03-15,Torino,Parma,Carlo Sguizzato,0.0,0.0
+224,25,Sun,1992-03-15,Cremonese,Juventus,Marcello Nicchi,0.0,2.0
+225,26,Sat,1992-03-28,Internazionale,Torino,Loris Stafoggia,0.0,0.0
+226,26,Sun,1992-03-29,Cremonese,Ascoli,Alfredo Trentalange,3.0,1.0
+227,26,Sun,1992-03-29,Hellas Verona,Parma,Piero Ceccarini,1.0,0.0
+228,26,Sun,1992-03-29,Bari,Foggia,Luciano Luci,1.0,3.0
+229,26,Sun,1992-03-29,Atalanta,Genoa,Vincenzo Fucci,1.0,0.0
+230,26,Sun,1992-03-29,Juventus,Lazio,Pierluigi Collina,1.0,1.0
+231,26,Sun,1992-03-29,Roma,Milan,Tullio Lanese,1.0,1.0
+232,26,Sun,1992-03-29,Cagliari,Fiorentina,Graziano Cesari,4.0,0.0
+233,26,Sun,1992-03-29,Sampdoria,Napoli,Mauro Felicani,1.0,1.0
+234,27,Sun,1992-04-05,Milan,Sampdoria,Maurizio Mughetti,5.0,1.0
+235,27,Sun,1992-04-05,Torino,Juventus,Fabio Baldas,2.0,0.0
+236,27,Sun,1992-04-05,Genoa,Hellas Verona,Pietro D'Elia,1.0,0.0
+237,27,Sun,1992-04-05,Napoli,Roma,Livio Bazzoli,3.0,2.0
+238,27,Sun,1992-04-05,Foggia,Cremonese,Robert Boggi,2.0,0.0
+239,27,Sun,1992-04-05,Fiorentina,Atalanta,Gianni Beschin,3.0,0.0
+240,27,Sun,1992-04-05,Parma,Cagliari,Paolo Fabricatore,1.0,1.0
+241,27,Sun,1992-04-05,Ascoli,Internazionale,Arcangelo Pezzella,1.0,2.0
+242,27,Sun,1992-04-05,Lazio,Bari,Pierluigi Pairetto,3.0,1.0
+243,28,Sat,1992-04-11,Hellas Verona,Torino,Livio Bazzoli,1.0,2.0
+244,28,Sun,1992-04-12,Lazio,Fiorentina,Walter Cinciripini,1.0,1.0
+245,28,Sun,1992-04-12,Atalanta,Foggia,Libero Brignoccoli,4.0,4.0
+246,28,Sun,1992-04-12,Cremonese,Milan,Virginio Quartuccio,1.0,1.0
+247,28,Sun,1992-04-12,Sampdoria,Roma,Piero Ceccarini,1.0,1.0
+248,28,Sun,1992-04-12,Juventus,Ascoli,Massimo Chiesa,1.0,0.0
+249,28,Sun,1992-04-12,Bari,Napoli,Pierluigi Collina,1.0,3.0
+250,28,Sun,1992-04-12,Cagliari,Genoa,Maurizio Mughetti,1.0,1.0
+251,28,Sun,1992-04-12,Internazionale,Parma,Marcello Nicchi,0.0,0.0
+252,29,Sat,1992-04-18,Napoli,Lazio,Rosario Lo Bello,3.0,0.0
+253,29,Sat,1992-04-18,Parma,Atalanta,Carlo Sguizzato,0.0,0.0
+254,29,Sat,1992-04-18,Foggia,Hellas Verona,Tullio Lanese,5.0,0.0
+255,29,Sat,1992-04-18,Ascoli,Cagliari,Fabio Baldas,1.0,3.0
+256,29,Sat,1992-04-18,Fiorentina,Cremonese,Roberto Bettin,1.0,1.0
+257,29,Sat,1992-04-18,Torino,Sampdoria,Pietro D'Elia,1.0,1.0
+258,29,Sat,1992-04-18,Genoa,Bari,Alfredo Trentalange,1.0,3.0
+259,29,Sat,1992-04-18,Roma,Juventus,Luciano Luci,1.0,1.0
+260,29,Sat,1992-04-18,Milan,Internazionale,Graziano Cesari,1.0,0.0
+261,30,Sat,1992-04-25,Torino,Milan,Arcangelo Pezzella,2.0,2.0
+262,30,Sun,1992-04-26,Atalanta,Roma,Pierluigi Collina,0.0,1.0
+263,30,Sun,1992-04-26,Sampdoria,Foggia,Livio Bazzoli,1.0,1.0
+264,30,Sun,1992-04-26,Lazio,Cremonese,Pasquale Rodomonti,3.0,2.0
+265,30,Sun,1992-04-26,Bari,Ascoli,Francesco Arena,2.0,1.0
+266,30,Sun,1992-04-26,Parma,Genoa,Loris Stafoggia,2.0,0.0
+267,30,Sun,1992-04-26,Hellas Verona,Fiorentina,Robert Boggi,2.0,3.0
+268,30,Sun,1992-04-26,Cagliari,Napoli,Paolo Fabricatore,0.0,0.0
+269,30,Sun,1992-04-26,Internazionale,Juventus,Gianni Beschin,1.0,3.0
+270,31,Sun,1992-05-03,Fiorentina,Torino,Libero Brignoccoli,0.0,0.0
+271,31,Sun,1992-05-03,Foggia,Napoli,Massimo Chiesa,1.0,0.0
+272,31,Sun,1992-05-03,Genoa,Internazionale,Piero Ceccarini,1.0,2.0
+273,31,Sun,1992-05-03,Cremonese,Cagliari,Rosario Lo Bello,0.0,1.0
+274,31,Sun,1992-05-03,Milan,Lazio,Marcello Nicchi,2.0,0.0
+275,31,Sun,1992-05-03,Atalanta,Bari,Gianni Beschin,2.0,1.0
+276,31,Sun,1992-05-03,Roma,Parma,Alfredo Trentalange,1.0,0.0
+277,31,Sun,1992-05-03,Ascoli,Hellas Verona,Dario Boemo,1.0,1.0
+278,31,Sun,1992-05-03,Juventus,Sampdoria,Walter Cinciripini,0.0,0.0
+279,32,Sat,1992-05-09,Torino,Genoa,Tullio Lanese,4.0,0.0
+280,32,Sun,1992-05-10,Parma,Juventus,Robert Boggi,0.0,0.0
+281,32,Sun,1992-05-10,Foggia,Lazio,Loris Stafoggia,2.0,1.0
+282,32,Sun,1992-05-10,Napoli,Milan,Pierluigi Pairetto,1.0,1.0
+283,32,Sun,1992-05-10,Hellas Verona,Atalanta,Giuseppe Rosica,1.0,3.0
+284,32,Sun,1992-05-10,Internazionale,Cremonese,Pierluigi Collina,0.0,2.0
+285,32,Sun,1992-05-10,Cagliari,Bari,Vincenzo Fucci,0.0,0.0
+286,32,Sun,1992-05-10,Roma,Ascoli,Mauro Felicani,1.0,0.0
+287,32,Sun,1992-05-10,Sampdoria,Fiorentina,Carlo Sguizzato,2.0,0.0
+288,33,Sat,1992-05-16,Lazio,Sampdoria,Luciano Luci,1.0,2.0
+289,33,Sun,1992-05-17,Ascoli,Parma,Gianni Beschin,2.0,3.0
+290,33,Sun,1992-05-17,Cremonese,Roma,Carlo Sguizzato,1.0,2.0
+291,33,Sun,1992-05-17,Fiorentina,Napoli,Maurizio Mughetti,4.0,2.0
+292,33,Sun,1992-05-17,Bari,Internazionale,Walter Cinciripini,0.0,2.0
+293,33,Sun,1992-05-17,Milan,Hellas Verona,Paolo Fabricatore,4.0,0.0
+294,33,Sun,1992-05-17,Genoa,Foggia,Daniele Scaramuzza,0.0,2.0
+295,33,Sun,1992-05-17,Atalanta,Torino,Francesco Arena,1.0,3.0
+296,33,Sun,1992-05-17,Juventus,Cagliari,Giuseppe Conocchiari,0.0,0.0
+297,34,Sun,1992-05-24,Napoli,Genoa,Pasquale Rodomonti,1.0,0.0
+298,34,Sun,1992-05-24,Foggia,Milan,Pierluigi Collina,2.0,8.0
+299,34,Sun,1992-05-24,Internazionale,Atalanta,Virginio Quartuccio,0.0,0.0
+300,34,Sun,1992-05-24,Torino,Ascoli,Carlo Dinelli,5.0,2.0
+301,34,Sun,1992-05-24,Roma,Bari,Angelo Amendolia,2.0,0.0
+302,34,Sun,1992-05-24,Parma,Fiorentina,Massimo Chiesa,1.0,1.0
+303,34,Sun,1992-05-24,Cagliari,Lazio,Graziano Cesari,0.0,1.0
+304,34,Sun,1992-05-24,Sampdoria,Cremonese,Roberto Bettin,2.0,2.0
+305,34,Sun,1992-05-24,Hellas Verona,Juventus,Paolo De Angelis,3.0,3.0
