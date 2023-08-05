@@ -373,5 +373,16 @@ dependencies:
   - zlib=1.2.13=hd590300_5
   - zstd=1.5.2=hfc55251_7
   - pip:
+      - ipython-genutils==0.2.0
+      - jupyter-contrib-core==0.4.2
+      - jupyter-contrib-nbextensions==0.7.0
+      - jupyter-highlight-selected-word==0.2.0
+      - jupyter-nbextensions-configurator==0.6.3
+      - jupyterlab-rise==0.40.0
+      - lxml==4.9.3
+      - notebook==7.0.2
+      - parameterized==0.9.0
       - pymc-experimental==0.0.9
+      - rise==5.7.1
+      - uncertainty-calibration==0.1.4
 prefix: /home/david/mambaforge/envs/bmcp5
