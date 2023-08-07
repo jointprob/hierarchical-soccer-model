@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 from statsmodels.stats.proportion import proportion_confint
-import calibration as cal
+# import calibration as cal
 
 def format_season_df(df_orig):
     df = df_orig.copy()
@@ -25,7 +25,7 @@ def format_season_df(df_orig):
     condlist = [df['yg1']>df['yg2'], df['yg1']==df['yg2'], df['yg2']>df['yg1']]
     choicelist = ['hwin', 'draw', 'awin']
     df['result'] = np.select(condlist, choicelist)
-    return df
+    return df, teams_dict
 
 def make_error_bars(bin_counts, error_bar_alpha, prob_pred, y_true):
     df = pd.DataFrame({'prob_pred': prob_pred, 'bin_count': bin_counts})
@@ -39,7 +39,7 @@ def make_error_bars(bin_counts, error_bar_alpha, prob_pred, y_true):
     return df
 
     
-def make_calib_data(y_true, y_prob, n_bins, strategy, error_bar_alpha):
+def make_calib_data(y_true, y_prob, n_bins, strategy, error_bar_alpha=0.05):
     # https://github.com/scikit-learn/scikit-learn/blob/364c77e04/sklearn/calibration.py#L909
     if strategy == "quantile":
         quantiles = np.linspace(0, 1, n_bins + 1)
@@ -79,18 +79,18 @@ def make_1x2_calib_data(df, n_bins=10, strategy='quantile',
     return df
 
 
-def get_1X2_CalMetrics(df, n_bins=20, pred_cols=['p(hwinc)', 'p(drawc)', 'p(awinc)'],
-                       res_cols=['hwin', 'draw', 'awin']):
-    col_dfs = []
-    for pred_col, res_col in zip(pred_cols, res_cols):
-        preds = df[pred_col] ; labels = df[res_col]
-        ece = cal.get_ece(preds, labels, num_bins=n_bins)
-        ece_em = cal.get_ece_em(preds, labels, num_bins=n_bins)
-        cal_error = cal.get_calibration_error(preds, labels)
-        [lower, median, upper] = cal.get_calibration_error_uncertainties(preds, labels, alpha=0.05)
-        col_df = pd.DataFrame([[ece], [ece_em], [cal_error], [median, lower, upper]],
-                              columns=['ece_metric', 'low_ci', 'upp_ci'],
-                              index=['ece', 'ece_em', 'cal_error', 'median_ece']).assign(calib=pred_col)
-        col_dfs.append(col_df)
-    df = pd.concat(col_dfs, axis=0)
-    return df
+# def get_1X2_CalMetrics(df, n_bins=20, pred_cols=['p(hwinc)', 'p(drawc)', 'p(awinc)'],
+#                        res_cols=['hwin', 'draw', 'awin']):
+#     col_dfs = []
+#     for pred_col, res_col in zip(pred_cols, res_cols):
+#         preds = df[pred_col] ; labels = df[res_col]
+#         ece = cal.get_ece(preds, labels, num_bins=n_bins)
+#         ece_em = cal.get_ece_em(preds, labels, num_bins=n_bins)
+#         cal_error = cal.get_calibration_error(preds, labels)
+#         [lower, median, upper] = cal.get_calibration_error_uncertainties(preds, labels, alpha=0.05)
+#         col_df = pd.DataFrame([[ece], [ece_em], [cal_error], [median, lower, upper]],
+#                               columns=['ece_metric', 'low_ci', 'upp_ci'],
+#                               index=['ece', 'ece_em', 'cal_error', 'median_ece']).assign(calib=pred_col)
+#         col_dfs.append(col_df)
+#     df = pd.concat(col_dfs, axis=0)
+#     return df
