@@ -1,8 +1,39 @@
+import itertools
+
 import numpy as np
 import pandas as pd
 
 from statsmodels.stats.proportion import proportion_confint
-# import calibration as cal
+
+def simulate_season(home, fixtures):    
+    fixtures['home_team_raw'] = home + fixtures['home_team_att'] + fixtures['away_team_def']
+    fixtures['away_team_raw'] = fixtures['away_team_att'] + fixtures['home_team_def']
+    fixtures['theta_home_team'] = np.exp(fixtures['home_team_raw'])
+    fixtures['theta_away_team'] = np.exp(fixtures['away_team_raw'])
+
+    fixtures['home_team_goals'] = np.random.poisson(lam=fixtures['theta_home_team'])
+    fixtures['away_team_goals'] = np.random.poisson(lam=fixtures['theta_away_team'])
+
+    return fixtures   
+
+def apply_zero_sum_constraint(att_t, def_t):
+    att_t_adj = att_t - np.mean(att_t)
+    def_t_adj = def_t - np.mean(def_t)
+    
+    return att_t_adj, def_t_adj
+
+def forward_model(home, att_t, def_t, n_teams):
+    teams = np.arange(n_teams)
+    fixtures = np.array(list(zip(*list(itertools.permutations(teams, 2))))).T
+    df_fixtures = pd.DataFrame(fixtures, columns=['home_team', 'away_team'])
+
+    att_t_adj, def_t_adj = apply_zero_sum_constraint(att_t, def_t)
+
+    df_fixtures['home_team_att'] = df_fixtures['home_team'].map(lambda x: att_t_adj[x])
+    df_fixtures['home_team_def'] = df_fixtures['home_team'].map(lambda x: def_t_adj[x])
+    df_fixtures['away_team_att'] = df_fixtures['away_team'].map(lambda x: att_t_adj[x])
+    df_fixtures['away_team_def'] = df_fixtures['away_team'].map(lambda x: def_t_adj[x])
+    return simulate_season(home, df_fixtures)
 
 def format_season_df(df_orig):
     df = df_orig.copy()
@@ -77,20 +108,3 @@ def make_1x2_calib_data(df, n_bins=10, strategy='quantile',
         cal_dfs.append(cal_df)
     df = pd.concat(cal_dfs, axis=0).reset_index(drop=True)
     return df
-
-
-# def get_1X2_CalMetrics(df, n_bins=20, pred_cols=['p(hwinc)', 'p(drawc)', 'p(awinc)'],
-#                        res_cols=['hwin', 'draw', 'awin']):
-#     col_dfs = []
-#     for pred_col, res_col in zip(pred_cols, res_cols):
-#         preds = df[pred_col] ; labels = df[res_col]
-#         ece = cal.get_ece(preds, labels, num_bins=n_bins)
-#         ece_em = cal.get_ece_em(preds, labels, num_bins=n_bins)
-#         cal_error = cal.get_calibration_error(preds, labels)
-#         [lower, median, upper] = cal.get_calibration_error_uncertainties(preds, labels, alpha=0.05)
-#         col_df = pd.DataFrame([[ece], [ece_em], [cal_error], [median, lower, upper]],
-#                               columns=['ece_metric', 'low_ci', 'upp_ci'],
-#                               index=['ece', 'ece_em', 'cal_error', 'median_ece']).assign(calib=pred_col)
-#         col_dfs.append(col_df)
-#     df = pd.concat(col_dfs, axis=0)
-#     return df
