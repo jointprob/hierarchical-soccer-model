@@ -3,8 +3,6 @@ import itertools
 import numpy as np
 import pandas as pd
 
-from statsmodels.stats.proportion import proportion_confint
-
 def simulate_season(home, fixtures):    
     fixtures['home_team_raw'] = home + fixtures['home_team_att'] + fixtures['away_team_def']
     fixtures['away_team_raw'] = fixtures['away_team_att'] + fixtures['home_team_def']
@@ -58,19 +56,7 @@ def format_season_df(df_orig):
     df['result'] = np.select(condlist, choicelist)
     return df, teams_dict
 
-def make_error_bars(bin_counts, error_bar_alpha, prob_pred, y_true):
-    df = pd.DataFrame({'prob_pred': prob_pred, 'bin_count': bin_counts})
-    ci_low, ci_upp = proportion_confint(df['prob_pred']*df['bin_count'], df['bin_count'], error_bar_alpha, method='normal')
-    
-    ci_low_num = round((error_bar_alpha / 2), 3) *100
-    ci_upp_num = round(((1 - error_bar_alpha)*100 + ci_low_num), 3)
-    df[str(ci_low_num) + '%_CI'] = ci_low
-    df[str(ci_upp_num) + '%_CI'] = ci_upp
-    
-    return df
-
-    
-def make_calib_data(y_true, y_prob, n_bins, strategy, error_bar_alpha=0.05):
+def make_calib_data(y_true, y_prob, n_bins, strategy):
     # https://github.com/scikit-learn/scikit-learn/blob/364c77e04/sklearn/calibration.py#L909
     if strategy == "quantile":
         quantiles = np.linspace(0, 1, n_bins + 1)
@@ -89,20 +75,15 @@ def make_calib_data(y_true, y_prob, n_bins, strategy, error_bar_alpha=0.05):
     prob_pred = bin_sums[nonzero] / bin_total[nonzero]
     bin_counts = np.array([np.sum(binids==i) for i in np.unique(binids)])
 
-    error_bars = make_error_bars(bin_counts, error_bar_alpha, prob_pred, y_true)
-
     df = pd.DataFrame({'mean_predicted_proba': prob_pred, 'mean_actual_proba': prob_true, 'bin_count': bin_counts})
-    df = pd.concat([df, error_bars], axis=1)
-    return df
-    
+    return df    
     
 def make_1x2_calib_data(df, n_bins=10, strategy='quantile',
-                        error_bar_alpha=0.5,
                         pred_cols=['p(hwinc)', 'p(drawc)', 'p(awinc)'],
                         res_cols=['hwin', 'draw', 'awin']):
     cal_dfs = []
     for pred_col, res_col in zip(pred_cols, res_cols):
-        cal_df = make_calib_data(df[res_col], df[pred_col], n_bins, strategy, error_bar_alpha).assign(calib=res_col)
+        cal_df = make_calib_data(df[res_col], df[pred_col], n_bins, strategy).assign(calib=res_col)
         cal_df = cal_df.reset_index().rename(columns={'index': 'bin_num'})
         cal_df['calib'] = pd.Categorical(cal_df['calib'], categories=res_cols, ordered=True)
         cal_dfs.append(cal_df)

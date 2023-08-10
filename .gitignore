@@ -102,12 +102,9 @@ google-credentials.json
 
 *.postman_collection.json
 
-# Project Credentials
-odds-getter-defb6b399de4.json
-image-ocr-translate-65ce93a977a9.json
-ocr-translate-78b3feaa0e99.json
 
 trash/
 resources/
 *.md.backup
 *notes*
+*tester*
